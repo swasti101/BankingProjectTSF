@@ -1,0 +1,34 @@
+.overlay {
+  background-image: url(images/Money-transfer.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5;
+
+  background-size: cover;
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.container {
+  /*background: transparent;*/
+  background-color: beige;
+  z-index: 12;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+table {
+  width: 85%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 20px;
+  border: 1px solid rgb(204, 204, 204);
+  text-align: center;
+}
